@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ecd2cba61c.js" crossorigin="anonymous"></script>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="css/style.css"> 
+
+        <title>Gokul Raj Website</title>
+        <link rel="icon" href="img/gokultitleicons.png" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class=" nav container">
+            <a href="#" class="nav__logo">GOKUL RAJ</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                   <li class="nav__item">
+                       <a href="#home" class="nav__link active-link">
+                        <i class="fas fa-home nav__icon"></i>
+                        Home
+                       </a>
+                   </li> 
+                   <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class="fas fa-user "></i>
+                        About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class="fas fa-file-alt "></i>
+                        Skills
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">
+                        <i class="fas fa-briefcase "></i>
+                        Services   
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                        <i class="fas fa-image "></i>
+                        Portfolio
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class="fab fa-telegram-plane "></i>
+                        Contact Me
+                    </a>
+                </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+
+            </div>
+            <div class="nav__btns">
+                <i class="far fa-moon change-theme"id="theme-button"></i>
+               
+                <div class="nav__toggle" id="nav-toggle">
+                    <span class="material-icons-outlined">
+                        apps
+                        </span>
+
+                </div>
+            </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.instagram.com/octo_1_3" class="home__social-icon">
+                                <i class="fab fa-instagram"></i>
+
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100005444370323" class="home__social-icon">
+                                <i class="fab fa-facebook-square"></i>
+
+                            </a>
+                            <a href="" class="home__social-icon">
+                                <i class="fab fa-github"></i> 
+
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img"x="-5" y="30" href="img/gokul1.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                              Hi, I'am Gokul Raj  
+                            </h1>
+                            <h3 class="home__subtitle">Frontend developer</h3>
+                            <p class="home__description">Experience in web design and development
+                                knowledge,producing quality work
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me
+                                <i class="far fa-paper-plane"></i>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button buttton--flex">
+                            <i class="fas fa-mouse"></i>
+                            <span class="home__scroll-name"> Scroll down</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+               <h2 class="section__title">About Me</h2>
+               <span class="section__subtitle">My introduction</span>
+                <div class="about__container container grid">
+                    <img src="img/gokul3.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            I am MCA second year student at Mohandas College of Engineering and Technology
+                            ,Anad. I am a skilled python and javascript programmer. I have also got skill sets in frontend web designing,html,css and bootstrap
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">01+</span>
+                                <span class="about__info-name">year<br>experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">2+</span>
+                                <span class="about__info-name">completed<br>project</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">01+</span>
+                                <span class="about__info-name">comanies<br>worked</span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a href="" class="button button--flex">
+                                Download CV
+                                <i class="material-icons" style="font-size:1.25rem;padding-left: 5px;">file_download</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+               <h2 class="section__title">Skills</h2>
+               <span class="section__subtitle">
+                   MY technical level
+               </span>
+               <div class="skills__container container grid">
+                    <div class="skills__content skills__open" id="a">
+                        
+                            
+                            <div class="skills__header"id="b">
+                                <i class="material-icons skills__icon" >laptop_mac</i>
+                            
+                                <div>
+                                    <h1 class="skills__title">Frontend Developer</h1>
+                                    <span class="skills__subtitle">More than 1 years</span>
+                                </div>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">JAVASCRIPT</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">BOOTSTRAP</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__bs"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                   
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__close" id="c">
+                    <div class="skills__header"id="d">
+                        <i class="material-icons-outlined skills__icon" >storage</i>
+                        
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="skills__subtitle">More than 1 years</span>
+                        </div>
+                        <i class="fas fa-angle-down"></i>
+                       </div>
+                          <div class="skills__list grid">
+                              <div class="skills__data">
+                                  <div class="skills__title">
+                                      <h3 class="skills__name">PYTHON</h3>
+                                      <span class="skills__number">60%</span>
+                                  </div>
+                                  <div class="skills__bar">
+                                      <span class="skills__percentage skills__html"></span>
+                                  </div>
+                              </div>
+                              <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">NODEJS</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">MYSQL</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">DJANGO</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__bs"></span>
+                                </div>
+                            </div>
+                   </div>
+                    </div>
+                   
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close"id="e">
+                            <div class="skills__header"id="f">
+                                <i class="material-icons skills__icon">storage</i>
+                                
+                                <div>
+                                    <h1 class="skills__title">Fullstack Developer</h1>
+                                    <span class="skills__subtitle">More than 1 years</span>
+                                </div>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <div class="skills__title">
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__number">90%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__html"></span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <div class="skills__title">
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__number">70%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__css"></span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <div class="skills__title">
+                                            <h3 class="skills__name">JAVASCRIPT</h3>
+                                            <span class="skills__number">60%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__js"></span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <div class="skills__title">
+                                            <h3 class="skills__name">DJANGO</h3>
+                                            <span class="skills__number">60%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__bs"></span>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+               </div>
+
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+               <h2 class="section__title">Qualification</h2>
+               <span class="section__subtitle">
+                   My Personal Journey
+               </span>
+               <div class="qualification__container container">
+                   <div class="qualification__tabs">
+                       <div class="qualification__button button--flex"id="education">
+                        <i class="material-icons qualification__icon ">school</i>
+                        Education
+                       </div>
+                       <div class="qualification__button button--flex" id="work">
+                        <i class="material-icons qualification__icon ">work</i>
+                        Work
+                       </div>
+                   </div>
+                       <div class="qualification__section">
+                           <div class='qualification__content qualification__active' id="g">
+                               <div class="qualification__data">
+                                     <div>
+                                         <h3 class="qualification__title">12 Computer Science</h3>
+                                         <span class="qualification__subtitle">Kerala state</span>
+                                         <div class="qualification__calender">
+                                             
+                                            <i class="material-icons calender">date_range</i>
+                                        
+                                        
+                                         2015-2017
+                                        
+                                     </div>
+                               </div>
+                               <div>
+                              <span class="qualification__rounder"></span>
+                              <span class="qualification__line"></span>
+                               </div>
+                           </div>
+                            
+                           <div class="qualification__data">
+                               <div></div>
+                               <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                               </div>
+                            <div>
+                                <h3 class="qualification__title">BSC Physics And <br>Computer Application</h3>
+                                <span class="qualification__subtitle">Kerala Unversity</span>
+                                <div class="qualification__calender">
+                                    <i class="material-icons calender ">date_range</i>
+                                2017-2020
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Master Of Computer Application</h3>
+                        <span class="qualification__subtitle">Kerala Technical Unversity</span>
+                        <div class="qualification__calender">
+        
+                            <i class="material-icons calender">date_range</i>
+                2020-2022
+                    </div>
+              </div>
+             <span class="qualification__rounder"></span>
+             
+          </div>
+                       </div>
+                       <div class='qualification__content qualification__close'id="h">
+                        <div class="qualification__data">
+                              <div>
+                                  <h3 class="qualification__title">Trinity Company<br>&nbsp&nbsp(internship)</h3>
+                                  <span class="qualification__subtitle">kerala-thiruvananthapuram</span>
+                                  <div class="qualification__calender">
+                                      
+                                     <i class="material-icons calender">date_range</i>
+                                 
+                                 
+                                  2019-2020
+                                 
+                              </div>
+                        </div>
+                        <div>
+                       <span class="qualification__rounder"></span>
+                      
+                        </div>
+                    </div>
+                    </div>
+                   </div>
+               </div>
+
+               
+            
+
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">what i offer</span>
+                <div class="services__container container grid">
+                    <div class="services__content">
+                        <div>
+                            <i class="material-icons-outlined services__icon">view_compact</i>
+                            <h3 class="services__title">Ui/Ux<br>Designer</h3>
+
+                        </div>
+                         <span class="button button--flex button--small button--link services__button">
+                             View More
+                             <i class="material-icons button_icon ">arrow_forward</i>
+                         </span>
+                         <div class="services__modal">
+                             <div class="services__modal-content">
+                                 <h4 class="services__modal-title">ui/ux<br>Designer</h4>
+                                 <i class="material-icons services__modal-close ">close</i>
+                                 <ul class="services__modal-services grid">
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I develop the user interface
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I create user flows,wireframes and prototypes
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I create orginal graphic design
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I develop deign phase
+                                        </p>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="services__content">
+                        <div>
+                            <i class="material-icons services__icon ">airplay</i>
+                            <h3 class="services__title">Front End<br>Developer</h3>
+
+                        </div>
+                         <span class="button button--flex button--small button--link services__button">
+                             View More
+                             <i class="material-icons-outlined button_icon ">arrow_forward</i>
+                         </span>
+                         <div class="services__modal">
+                             <div class="services__modal-content">
+                                 <h4 class="services__modal-title">Front End<br>Developer</h4>
+                                 <i class="material-icons services__modal-close ">close</i>
+                                 <ul class="services__modal-services grid">
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I develop frontend design as per the requirements
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I write reusable code and libraries
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I develop responsive site
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I enhance application for maximum speed
+                                        </p>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="services__content1">
+                        <div class="service__content2">
+                        <div>
+                            <i class="material-icons services__icon ">airplay</i>
+                            <h3 class="services__title">Back End<br>Developer</h3>
+
+                        </div>
+                         <span class="button button--flex button--small button--link services__button">
+                             View More
+                             <i class="material-icons-outlined button_icon ">arrow_forward</i>
+                         </span>
+                         <div class="services__modal">
+                             <div class="services__modal-content">
+                                 <h4 class="services__modal-title">Back End<br>Developer</h4>
+                                 <i class="material-icons services__modal-close ">close</i>
+                                 <ul class="services__modal-services grid">
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I build and maintain web applications
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I works on troubleshooting and debugging
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I keeps on top of new technologies
+                                        </p>
+                                     </li>
+                                     <li class="services__modal-services">
+                                        <i class="material-icons services__modal-icon ">check_circle_outlined</i>
+                                        <p>
+                                            I improve the server and serverside application
+                                        </p>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="services__modal" id="alertbox">
+                <div class="alert">
+                    <div class="alert__content">
+                    <h1>Form submitted successfully</h1>
+                </div>
+                <div class="alertokey">
+                    <button class="button button--flex"style="border: none; cursor: pointer;"  id="alertbutton">OK</button>
+                </div>
+                </div>
+                </div>
+                </div>
+                    
+
+                    
+
+
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+               <div class="portfolio section" id="portfolio">
+                   <h3 class="section__title">Portfolio</h3>
+                   <span class="section__subtitle">Most recent work </span>
+               </div>
+
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+              <h2 class="section__title">Contact Me</h2>
+              <span class="section__subtitle">Get in touch</span>
+               <div class="contact__container container grid">
+                   <div>
+                       <div class="contact__information">
+                        <i class="material-icons-outlined contact__icon ">phone</i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">7356749899</span>
+                        </div>
+                       </div>
+
+                       <div class="contact__information">
+                        <i class="material-icons-outlined contact__icon ">email</i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">gokulrajan007tvm.com</span>
+                        </div>
+                       </div>
+
+                       <div class="contact__information">
+                        <i class="material-icons-outlined contact__icon ">place</i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">kerala-thiruvananthapuram</span>
+                        </div>
+                       </div>
+                   </div>
+                   <form action="" class="contact__form grid" id="submit-form">
+                    
+                       <div class="contact__inputs grid">
+                           <div class="contact__content">
+                               <label for="" class="contact__label">Name</label>
+                               <input type="text" id ="fname" name="name"class="contact__input" autocomplete="off">
+                           </div>
+                        
+
+                           
+                           <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email"id ="lname"name="email" class="contact__input" autocomplete="off">
+                        </div>
+
+                       </div>
+                       <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text"id="project"name="project" class="contact__input" autocomplete="off" >
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="message" id="subject" cols="" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        
+                           <button type="submit" value="submit" style="border: none; cursor: pointer;"  class="button button--flex" id="submit">
+                               Send Message
+                               <i class="far fa-paper-plane"></i>
+                           </button>
+                           
+                        
+                    </div>
+                   </form>
+                   
+                    </div>
+               </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+           <div class="footer__bg">
+               <div class="footer__container container grid">
+                   <div>
+                       <h1 class="footer__title">Gokul Raj</h1>
+                        <span class="footer__subtitle">Full stact developer</span>
+                   </div>
+                   <ul class="footer__links">
+                       <li>
+                           <a href="#services" class="footer__link">Services</a>
+                       </li>
+                       <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">contactme</a>
+                    </li>
+                   </ul>
+                   <div class="footer__socials">
+                       <a href="https://www.instagram.com/octo_1_3" class="footer__social">
+                        <i class="fab fa-instagram"></i>
+                        
+                       </a>
+                       <a href="https://www.facebook.com/profile.php?id=100005444370323" class="footer__social">
+                        <i class="fab fa-facebook-f"></i>
+                       </a>
+                       <a href="" class="footer__social">
+                        <i class="fab fa-whatsapp"></i>
+                       </a>
+                   </div>
+               </div>
+               <p class="footer__copy">&#169;Gokul Raj. All right reserved</p>
+           </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="material-icons scroll__icon">arrow_upward</i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+         
+        <!--==================== MAIN JS ====================-->
+        <script src="js/main.js"></script>
+        <script>
+            $("#submit-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbxABF4D7SHOy73e70z0BeYDcISRM_2Bzc2RtetgsRI-X9z5NhumLUyJbCTrKu3Q1nEI/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        
+                    
+                        //window.location.reload()
+                        //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                        //alert("Something Error")
+        
+                    }
+                })
+            })
+            $(document).ready(function(){
+    $("#submit-form").validate({
+        errorclass:'errors',
+        rules:{
+          name:"required",
+            email:{
+                required:true,
+                email: true
+            },
+            messages:{
+              name:"please rnter your name"
+            },
+          
+            submitHandler: function (form) {
+                    form.submit();
+                }
+        }
+    })
+})
+   
+            
+             
+                
+        
+        </script>
+    </body>
+</html>
